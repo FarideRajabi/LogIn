@@ -1,0 +1,125 @@
+.backGround1{
+  background-size: 100%;
+  width: 95vw;
+  height: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+
+@media screen and (min-width:550px) {
+  div{
+    margin-bottom: 0.5vw;
+  } 
+}
+@media screen and (min-width:750px) {
+  div{
+    margin-bottom: 1vw;
+  } 
+}
+@media screen and (min-width:880px) {
+  div{
+    margin-bottom: 1.2vw;
+  } 
+}
+
+.backGround2{
+  background-size: 110%;
+  width: 28vw;
+  height: 40vw;
+  text-align: center;
+  margin: 5px auto 0;
+  border-radius:1.5vw;
+  border: 1vw solid white;
+}
+.title{
+  color: #fff;
+  font-size: 2vw ;
+}
+.main{
+  width: 20vw;
+  height: 30vw;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0.01vw 1.1vw;
+}
+h4{
+  font-size: 1.5vw;
+  line-height: 0.1vw;
+}
+.topic{
+  font-size: 1vw;
+  width:16vw ;
+
+  line-height: 1vw;
+}
+.socialBtn{
+  text-align: center;
+  margin-top: 0.1px;
+}
+.webBtnf , .webBtnG{
+  color: #fff;
+  width:9.5vw ;
+  border: none;
+  margin:0  0.1vw;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.webBtnf{
+  background-color:#00f;
+}
+.webBtnf{
+  background-color:#00f;
+}
+.webBtnG{
+  background-color:#f00;
+}
+span{
+  font-size: 0.8vw;
+}
+.login >input{
+  width: 19vw;
+  height: 1vw;
+}
+.login{
+ line-height: 1vw;
+}
+.social{
+  font-size:1vw;
+  float: right;
+  line-height: 0.01vw;
+  margin-right: 1.5vw;
+}
+.checkbox{
+  display: flex;
+  flex-flow: row;
+}
+.checkbox>span{
+  margin-top: 5px;
+  font-size:8px;
+  vertical-align:bottom;
+}
+.signBtn{
+  width: 20vw;
+  font-size: 0.9vw;
+  color: #fff;
+  background-color:#000;
+  border: none;
+  padding: 0.7vw;
+}
+.footer{
+  font-size:0.8vw;
+  color: #fff;
+}
+.forgotten{
+font-size: 1vw;
+display: flex;
+flex-direction: row;
+}
+a{
+  color: #1e90ff;
+  margin: 1vw 0.2vw;
+  font-weight: 700;
+}
